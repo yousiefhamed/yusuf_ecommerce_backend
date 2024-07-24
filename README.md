@@ -23,31 +23,6 @@ This repository contains the backend server for a full-featured e-commerce websi
 - MongoDB: NoSQL database for storing user and product data
 - JWT: JSON Web Tokens for secure authentication
 
-## Getting Started
-
-- Prerequisites
-  - Node.js (v14 or higher)
-  - MongoDB (v4 or higher)
-- Installation
-  - Clone the repository:
-
-```
-git clone https://github.com/your-username/ecommerce-backend.git
-cd ecommerce-backend
-```
-
-- Install dependencies:
-
-```
-npm install
-```
-
-- Start the server:
-
-```
-npm start
-```
-
 ## Contributing
 
 Contributions are welcome! Please read the CONTRIBUTING.md file for guidelines on how to contribute to this project.
