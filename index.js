@@ -41,6 +41,17 @@ app.post("/api/users", (req, res) => {
   });
 });
 
+app.get("/api/products", (req, res) => {
+  fs.readFile("./data/products.json", "utf8", (err, data) => {
+    if (err) {
+      console.error(err);
+      res.status(500).json({ message: "Error fetching products" });
+    } else {
+      res.json(JSON.parse(data));
+    }
+  });
+});
+
 // Start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
